@@ -2,14 +2,16 @@
 
 # Overview
 `UIView+DPCollapsibleConstraints` builds to **collapse** a view and its relevant layout constraints, simulating a **"Flow Layout"** mode.
-`UIView+DPCollapsibleConstraints` is derived from `UIView+FDCollapsibleConstraints`，but `UIView+DPCollapsibleConstraints` only supports pure objective-c code, what's more, it's compatible with masonry!!
+`UIView+DPCollapsibleConstraints` is derived from `UIView+FDCollapsibleConstraints`，but `UIView+DPCollapsibleConstraints` only supports pure objective-c code, what's more, it's compatible with `masonry`!!
 
-## Demo 1 (`UIView+DPCollapsibleConstraints` act the same result comparing with `UIView+FDCollapsibleConstraints`)
+## Demo 1
+(`UIView+DPCollapsibleConstraints` act the same result comparing with `UIView+FDCollapsibleConstraints`)
 This demo collapses the `forkingdog` image view and its bottom margin constraint.  
 
 ![view demo](https://github.com/forkingdog/UIView-FDCollapsibleConstraints/blob/master/Sceenshots/screenshot0.gif)  
 
-## Demo 2(`UIView+DPCollapsibleConstraints` act the same result comparing with `UIView+FDCollapsibleConstraints`)
+## Demo 2
+(`UIView+DPCollapsibleConstraints` act the same result comparing with `UIView+FDCollapsibleConstraints`)
 
 This demo collapses diffent components in cell, according to its data entity, each margin handles right as well.  
 
